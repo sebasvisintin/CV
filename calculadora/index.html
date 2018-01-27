@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="calc">
+    <form name="calculadora">
+      <div id="resultado">
+        <input type="text" id="visor"/>
+        </br>
+      </div>
+      <input type="button" value="7" onclick="boton(value);"/>
+      <input type="button" value="8" onclick="boton(value);"/>
+      <input type="button" value="9" onclick="boton(value);"/>
+      <input type="button" value="/" onclick="boton(value);"/>
+    </br>
+      <input type="button" value="4" onclick="boton(value);"/>
+      <input type="button" value="5" onclick="boton(value);"/>
+      <input type="button" value="6" onclick="boton(value);"/>
+      <input type="button" value="*" onclick="boton(value);"/>
+    </br>
+      <input type="button" value="1" onclick="boton(value);"/>
+      <input type="button" value="2" onclick="boton(value);"/>
+      <input type="button" value="3" onclick="boton(value);"/>
+      <input type="button" value="-" onclick="boton(value);"/>
+    </br>
+      <input type="button" value="C" onclick="limpiar();"/>
+      <input type="button" value="0" onclick="boton(value);"/>
+      <input type="button" value="=" onclick="calcular();"/>
+      <input type="button" value="+" onclick="boton(value);"/>
+    </br>
+    </form>
+    </div>
+  </body>
+</html>

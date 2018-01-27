@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(165, 231, 221)
+}
+
+.calc {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(121, 10, 48);
+  width: 300px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+.calc input {
+  margin-left: 2px;
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+.calc input:hover {
+  background: rgb(91, 92, 153);
+}
+
+#resultado input {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 50px;
+  width: 290px;
+  height: 100px;
+  line-height: 50px;
+  background: white;
+  border-radius: 25px;
+}
