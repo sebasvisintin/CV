@@ -1,0 +1,38 @@
+﻿a, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a {
+  display: block;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+  font-family: arial, helvetica, serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 0, 0, 0.3);
+  padding: 0px 8px; margin-top: 5px;
+  margin-right: -3%;
+  margin-left: auto;
+  text-align: left;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 0, 0);
+}
+a:after {
+  position: absolute;
+  right: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+  color: white;
+}
+a:hover:after {
+  position: absolute;
+  right: 10px;
+  opacity: 1;
+}

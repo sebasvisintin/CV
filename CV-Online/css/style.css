@@ -1,0 +1,128 @@
+body {
+  background-image: url(../images/fondo1.jpg);
+  font-family: arial, helvetica, serif;
+}
+h1 {
+  background: rgba(25, 26, 25, 0.7);
+  color: rgb(255, 0, 0);
+  font-family: arial, helvetica, serif;
+  font-size: 25px;
+  padding-left: 5px;
+}
+h2 {
+  background: rgba(255, 0, 0, 0.3);
+  color: rgb(0, 0, 0);
+  font-family: arial, helvetica, serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+h3 {
+  border-bottom: 2px solid rgba(255, 0, 0, 0.3);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 5px;
+}
+h4 {
+  background: rgba(255, 0, 0, 0.3);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 5px;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: square;
+}
+
+/*Aca van los IDs*/
+#encabezado {
+  background: rgba(179, 179, 179, 0.4);
+  margin-left: 30%;
+  padding-bottom: 10.50%;
+  padding-right: 2%;
+  text-align: right;
+}
+#encabezado ul {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 200%;
+  list-style-type: none;
+}
+#experiencia-laboral {
+  background: rgba(102, 105, 104, 0.4);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0.5%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-top: 0.5%;
+  padding-top: 1%;
+}
+#formacion {
+  background: rgba(102, 105, 104, 0.4);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 0.5%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-top: 0.5%;
+}
+#formacion p {
+  font-size: 15px;
+  font-weight: bold;
+  list-style-type: none;
+}
+#foto-perfil {
+  border: 2px solid rgba(255, 0, 0, 0.3);
+  position: absolute;
+  height: 300px;
+  margin-bottom: auto;
+  margin-left: 2%;
+  margin-top: 5%;
+  width: 300px;
+  overflow: hidden;
+}
+#nombre {
+  background: rgba(25, 26, 25, 0.5);
+  color: rgb(255, 0, 0);
+  font-family: arial, helvetica, serif;
+  font-size: 35px;
+  padding-right: 5px;
+}
+#portfolio {
+  height: 640px;
+  margin: 0.5% auto;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-top: 0.5%;
+  width: 960px;
+}
+
+#portfolio a {
+  font-size: 30px;
+}
+
+#portfolio li {
+  list-style-type: none;
+}
+
+#sobre-mi {
+  background: rgba(102, 105, 104, 0.4);
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-top: 0.5%;
+  padding-top: 1%;
+  text-align: center;
+}
