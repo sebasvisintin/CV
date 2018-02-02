@@ -1,3 +1,2 @@
-/*El objetivo del trabajo es extraer los titulos y las imagenes de una pagina web de noticias (node.js), 
-  y guardarlas en formato tipo String en una base de datos (mongoDB). El archivo node_modules no fue subido
-  al repositorio por una cuestión de limitación de espacio. */
+/* El objetivo del trabajo es extraer los titulos y las imagenes de una pagina web de noticias utilizando node.js, 
+  y guardarlas en formato tipo String en una base de datos (mongoDB). */
