@@ -1,0 +1,280 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+/*footer {
+  position:fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 35px;
+  width: 100%;
+  background: #1d1d1d;
+}*/
+
+/*ID's*/
+
+#texto {
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 30px;
+  margin-left: 26%;
+}
+
+#imagenes-principales {
+  margin: 28px;
+  margin-left: 15%;
+}
+
+#info {
+  color: #3A3335;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 525;
+  float: right;
+  margin-right: 18%;
+}
+
+#catalogo {
+  position: absolute;
+  width: 185px;
+  height: auto;
+  margin-left: 25%;
+  margin-top: -18%;
+}
+
+#catalogo img {
+  width: 185px;
+  height: auto;
+  margin: 10px;
+  border: 1px outset;
+}
+
+#catalogo h1 {
+  color: white;
+  background: red;
+  font-size: 11px;
+  font-weight: bold;
+  margin: -8px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+#catalogo h2 {
+  color: #231F20;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#catalogo h3 {
+  color: #D44700;
+  font-size: 15px;
+  margin: 10px;
+}
+
+#catalogo h3:hover {
+  color: #00b802;
+  font-size: 17px;
+}
+
+#catalogo h4 {
+  color: #5C5C5C;
+  font-size: 11px;
+  margin: 10px;
+}
+
+#filtro {
+  position: relative;
+  max-height: auto;
+  max-width: 165px;
+  margin-left: 12%;
+  z-index: 1;
+  background: #ffffff;
+}
+
+#filtro p {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#filtro h3 {
+  cursor: pointer;
+  color: #000;
+  font-size: 16px;
+}
+
+#filtro ul li {
+  color: #000;
+  font-size: 15px;
+}
+
+/*Clases*/
+
+.menu-seleccion {
+  width: 500px;
+}
+
+.navegador {
+  margin-top: 28px;
+  padding-left: 10%;
+  font-size: 15px;
+  font-weight: 700;
+  background: #1d1d1d;
+  overflow: hidden;
+}
+
+.navegador button {
+  background: none;
+  border: none;
+  cursor:pointer;
+  color: #FCAF17;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navegador button:hover {
+  color: white;
+}
+
+.navegador .carrito {
+  color: white;
+}
+.gif {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: -38px;
+  padding-right: 40px;
+}
+
+.logo {
+  position: relative;
+  margin-left: 10%;
+}
+
+.carrito {
+  margin-left: 60%;
+  font-size: 12px;
+  color: red;
+}
+
+.gender h3 {
+  background-color: #FCAF17;
+  border: 1px solid;
+}
+
+.otras h3 {
+  border: 1px solid;
+}
+
+.i-sucursal {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") -48px 0;
+}
+
+/*Clases para modificar iconos*/
+
+.i-compra {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") -68px 0;
+  margin-left: 20px;
+}
+
+.i-pedidos {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") 20px 0;
+}
+
+.i-busqueda {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: #FCAF17 url("images/sprite.png") -2px -56px;
+  margin-left: 170%;
+}
+
+.i-carrito {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") -88px 0;
+}
+
+.i-side {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: red url("images/sprite.png") -280px 2px;
+}
+.i-gender {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") -128px 0;
+}
+
+.i-scrolldown {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") -280px 3px;
+  float: right;
+}
+
+.i-scrollup {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("images/sprite.png") -300px 3px;
+  float: right;
+}
+
+.i-adidas1 {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("images/sprite.png") -8px -20px;
+  float: right;
+}
+
+.i-nike {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("images/sprite.png") -55px -20px;
+  float: right;
+}
+
+.i-vtex {
+  display: inline-block;
+  width: 85px;
+  height: auto;
+  background: url("images/sprite.png") -55px -20px;
+  float: right;
+}
+
+.i-fizzmod {
+  display: inline-block;
+  width: 85px;
+  height: autopx;
+  background: url("images/sprite.png") -55px -20px;
+  float: right;
+}
